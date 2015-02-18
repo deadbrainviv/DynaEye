@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9ADCAA51A95197A00FC2990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAA41A95197A00FC2990 /* main.m */; };
+		A9ADCAA81A95197A00FC2990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAA71A95197A00FC2990 /* AppDelegate.m */; };
+		A9ADCAAB1A95197A00FC2990 /* DynaEye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAA91A95197A00FC2990 /* DynaEye.xcdatamodeld */; };
+		A9ADCAAE1A95197A00FC2990 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAAD1A95197A00FC2990 /* MasterViewController.m */; };
+		A9ADCAB11A95197A00FC2990 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAB01A95197A00FC2990 /* DetailViewController.m */; };
+		A9ADCAB41A95197A00FC2990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ADCAB21A95197A00FC2990 /* Main.storyboard */; };
+		A9ADCAB61A95197A00FC2990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9ADCAB51A95197A00FC2990 /* Images.xcassets */; };
+		A9ADCAB91A95197A00FC2990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9ADCAB71A95197A00FC2990 /* LaunchScreen.xib */; };
+		A9ADCAC51A95197A00FC2990 /* DynaEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADCAC41A95197A00FC2990 /* DynaEyeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9ADCABF1A95197A00FC2990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9ADCA971A95197A00FC2990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9ADCA9E1A95197A00FC2990;
+			remoteInfo = DynaEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9ADCA9F1A95197A00FC2990 /* DynaEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynaEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADCAA31A95197A00FC2990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ADCAA41A95197A00FC2990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9ADCAA61A95197A00FC2990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9ADCAA71A95197A00FC2990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9ADCAAA1A95197A00FC2990 /* DynaEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DynaEye.xcdatamodel; sourceTree = "<group>"; };
+		A9ADCAAC1A95197A00FC2990 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A9ADCAAD1A95197A00FC2990 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A9ADCAAF1A95197A00FC2990 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A9ADCAB01A95197A00FC2990 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A9ADCAB31A95197A00FC2990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9ADCAB51A95197A00FC2990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9ADCAB81A95197A00FC2990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9ADCABE1A95197A00FC2990 /* DynaEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynaEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADCAC31A95197A00FC2990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ADCAC41A95197A00FC2990 /* DynaEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynaEyeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ADCA9C1A95197A00FC2990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADCABB1A95197A00FC2990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ADCA961A95197A00FC2990 = {
+			isa = PBXGroup;
+			children = (
+				A9ADCAA11A95197A00FC2990 /* DynaEye */,
+				A9ADCAC11A95197A00FC2990 /* DynaEyeTests */,
+				A9ADCAA01A95197A00FC2990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ADCAA01A95197A00FC2990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADCA9F1A95197A00FC2990 /* DynaEye.app */,
+				A9ADCABE1A95197A00FC2990 /* DynaEyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ADCAA11A95197A00FC2990 /* DynaEye */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADCAA61A95197A00FC2990 /* AppDelegate.h */,
+				A9ADCAA71A95197A00FC2990 /* AppDelegate.m */,
+				A9ADCAAC1A95197A00FC2990 /* MasterViewController.h */,
+				A9ADCAAD1A95197A00FC2990 /* MasterViewController.m */,
+				A9ADCAAF1A95197A00FC2990 /* DetailViewController.h */,
+				A9ADCAB01A95197A00FC2990 /* DetailViewController.m */,
+				A9ADCAB21A95197A00FC2990 /* Main.storyboard */,
+				A9ADCAB51A95197A00FC2990 /* Images.xcassets */,
+				A9ADCAB71A95197A00FC2990 /* LaunchScreen.xib */,
+				A9ADCAA91A95197A00FC2990 /* DynaEye.xcdatamodeld */,
+				A9ADCAA21A95197A00FC2990 /* Supporting Files */,
+			);
+			path = DynaEye;
+			sourceTree = "<group>";
+		};
+		A9ADCAA21A95197A00FC2990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADCAA31A95197A00FC2990 /* Info.plist */,
+				A9ADCAA41A95197A00FC2990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9ADCAC11A95197A00FC2990 /* DynaEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADCAC41A95197A00FC2990 /* DynaEyeTests.m */,
+				A9ADCAC21A95197A00FC2990 /* Supporting Files */,
+			);
+			path = DynaEyeTests;
+			sourceTree = "<group>";
+		};
+		A9ADCAC21A95197A00FC2990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADCAC31A95197A00FC2990 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ADCA9E1A95197A00FC2990 /* DynaEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADCAC81A95197A00FC2990 /* Build configuration list for PBXNativeTarget "DynaEye" */;
+			buildPhases = (
+				A9ADCA9B1A95197A00FC2990 /* Sources */,
+				A9ADCA9C1A95197A00FC2990 /* Frameworks */,
+				A9ADCA9D1A95197A00FC2990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynaEye;
+			productName = DynaEye;
+			productReference = A9ADCA9F1A95197A00FC2990 /* DynaEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9ADCABD1A95197A00FC2990 /* DynaEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADCACB1A95197A00FC2990 /* Build configuration list for PBXNativeTarget "DynaEyeTests" */;
+			buildPhases = (
+				A9ADCABA1A95197A00FC2990 /* Sources */,
+				A9ADCABB1A95197A00FC2990 /* Frameworks */,
+				A9ADCABC1A95197A00FC2990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9ADCAC01A95197A00FC2990 /* PBXTargetDependency */,
+			);
+			name = DynaEyeTests;
+			productName = DynaEyeTests;
+			productReference = A9ADCABE1A95197A00FC2990 /* DynaEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ADCA971A95197A00FC2990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vivek Nair";
+				TargetAttributes = {
+					A9ADCA9E1A95197A00FC2990 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A9ADCABD1A95197A00FC2990 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A9ADCA9E1A95197A00FC2990;
+					};
+				};
+			};
+			buildConfigurationList = A9ADCA9A1A95197A00FC2990 /* Build configuration list for PBXProject "DynaEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9ADCA961A95197A00FC2990;
+			productRefGroup = A9ADCAA01A95197A00FC2990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ADCA9E1A95197A00FC2990 /* DynaEye */,
+				A9ADCABD1A95197A00FC2990 /* DynaEyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9ADCA9D1A95197A00FC2990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADCAB41A95197A00FC2990 /* Main.storyboard in Resources */,
+				A9ADCAB91A95197A00FC2990 /* LaunchScreen.xib in Resources */,
+				A9ADCAB61A95197A00FC2990 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADCABC1A95197A00FC2990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ADCA9B1A95197A00FC2990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADCAB11A95197A00FC2990 /* DetailViewController.m in Sources */,
+				A9ADCAAE1A95197A00FC2990 /* MasterViewController.m in Sources */,
+				A9ADCAAB1A95197A00FC2990 /* DynaEye.xcdatamodeld in Sources */,
+				A9ADCAA81A95197A00FC2990 /* AppDelegate.m in Sources */,
+				A9ADCAA51A95197A00FC2990 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADCABA1A95197A00FC2990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADCAC51A95197A00FC2990 /* DynaEyeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9ADCAC01A95197A00FC2990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9ADCA9E1A95197A00FC2990 /* DynaEye */;
+			targetProxy = A9ADCABF1A95197A00FC2990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9ADCAB21A95197A00FC2990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADCAB31A95197A00FC2990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9ADCAB71A95197A00FC2990 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADCAB81A95197A00FC2990 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9ADCAC61A95197A00FC2990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9ADCAC71A95197A00FC2990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9ADCAC91A95197A00FC2990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynaEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9ADCACA1A95197A00FC2990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynaEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9ADCACC1A95197A00FC2990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynaEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynaEye.app/DynaEye";
+			};
+			name = Debug;
+		};
+		A9ADCACD1A95197A00FC2990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynaEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynaEye.app/DynaEye";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ADCA9A1A95197A00FC2990 /* Build configuration list for PBXProject "DynaEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADCAC61A95197A00FC2990 /* Debug */,
+				A9ADCAC71A95197A00FC2990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ADCAC81A95197A00FC2990 /* Build configuration list for PBXNativeTarget "DynaEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADCAC91A95197A00FC2990 /* Debug */,
+				A9ADCACA1A95197A00FC2990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9ADCACB1A95197A00FC2990 /* Build configuration list for PBXNativeTarget "DynaEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADCACC1A95197A00FC2990 /* Debug */,
+				A9ADCACD1A95197A00FC2990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9ADCAA91A95197A00FC2990 /* DynaEye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9ADCAAA1A95197A00FC2990 /* DynaEye.xcdatamodel */,
+			);
+			currentVersion = A9ADCAAA1A95197A00FC2990 /* DynaEye.xcdatamodel */;
+			path = DynaEye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9ADCA971A95197A00FC2990 /* Project object */;
+}
